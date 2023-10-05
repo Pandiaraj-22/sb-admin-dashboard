@@ -1,0 +1,54 @@
+.pageButtons{
+    display: flex;
+    /* gap: 20px; */
+    list-style: none;
+}
+
+/* .pageButtons li{
+    padding:15px;
+    border:1px solid black;
+    cursor: pointer;
+}
+
+.pageButtons li.active{
+    background-color:#4e73df ;   
+    color:white ;
+}
+
+.pageButtons li:hover{
+    background-color:#df4e81 ;   
+    color:white ;
+} */
+
+.pageButtons li {
+    padding: 10px;
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor:pointer;
+}
+
+.pageButtons li:hover {
+    background-color: red;
+    color: skyblue;
+}
+
+.pageButtons li.active {
+    background-color: rgb(13, 62, 62);
+    color: white;
+}
+
+.input-box{
+    width : 50px;
+    border: 1px solid black;
+    cursor:pointer;
+    padding:10px;
+}
+
+.input-box:hover{
+    background-color: aquamarine;
+    color: black;
+}
+
+.pointer{
+    cursor:pointer;
+}
